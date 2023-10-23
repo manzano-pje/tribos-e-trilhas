@@ -2270,6 +2270,7 @@ html .list-inline-md > * {
 
 .list-marked-secondary > li::before {
 	background: #d36600;
+
 }
 
 .list-marked-primary > li::before {
@@ -5907,8 +5908,10 @@ textarea.textarea-lg {
 	max-width: 220px;
 }
 
-.post-minimal-2-title a, .post-minimal-2-title a:focus, .post-minimal-2-title a:active {
-	color: #d36600;
+.post-minimal-2-title a, 
+.post-minimal-2-title a:focus, 
+.post-minimal-2-title a:active {
+	color: #ffffff;
 }
 
 .post-minimal-2-title a:hover {
@@ -8068,7 +8071,13 @@ textarea.textarea-lg {
 	background: #ffffff;
 }
 
-.footer-classic h1, .footer-classic h2, .footer-classic h3, .footer-classic h4, .footer-classic h5, .footer-classic h6, .footer-classic [class*='heading-'] {
+.footer-classic h1, 
+.footer-classic h2, 
+.footer-classic h3, 
+.footer-classic h4, 
+.footer-classic h5, 
+.footer-classic h6, 
+.footer-classic [class*='heading-'] {
 	color: rgba(255, 255, 255, 0.15);
 }
 
@@ -8927,11 +8936,11 @@ textarea.textarea-lg {
 }
 
 .footer-corporate-inset .post-minimal-2 a {
-	color: #d36600;
+	color: #ffffff;
 }
 
 .footer-corporate-inset .post-minimal-2 a:hover {
-	color: #d36600;
+	color: #ffff00;
 }
 
 .footer-corporate-inset .list-marked li:before {
@@ -12427,10 +12436,30 @@ html [class*='section-'].section-top-0 {
 *
 * Backgrounds
 */
-.context-dark, .bg-gray-dark, .bg-primary,
+.context-dark, 
+.bg-gray-dark, 
+.bg-primary,
 .context-dark h1,
 .bg-gray-dark h1,
-.bg-primary h1, .context-dark h2, .bg-gray-dark h2, .bg-primary h2, .context-dark h3, .bg-gray-dark h3, .bg-primary h3, .context-dark h4, .bg-gray-dark h4, .bg-primary h4, .context-dark h5, .bg-gray-dark h5, .bg-primary h5, .context-dark h6, .bg-gray-dark h6, .bg-primary h6, .context-dark [class*='heading-'], .bg-gray-dark [class*='heading-'], .bg-primary [class*='heading-'] {
+.bg-primary h1, 
+.context-dark h2, 
+.bg-gray-dark h2, 
+.bg-primary h2, 
+.context-dark h3, 
+.bg-gray-dark h3, 
+.bg-primary h3, 
+.context-dark h4, 
+.bg-gray-dark h4, 
+.bg-primary h4, 
+.context-dark h5, 
+.bg-gray-dark h5, 
+.bg-primary h5, 
+.context-dark h6, 
+.bg-gray-dark h6, 
+.bg-primary h6, 
+.context-dark [class*='heading-'], 
+.bg-gray-dark [class*='heading-'], 
+.bg-primary [class*='heading-'] {
 	color: #ffff00;
 }
 
@@ -12620,7 +12649,8 @@ html [class*='section-'].section-top-0 {
 }
 
 .context-dark .post-minimal-2-time, .bg-gray-dark .post-minimal-2-time, .bg-primary .post-minimal-2-time {
-	color: rgba(255, 255, 255, 0.25);
+	color: rgba(255, 255, 255, 0.6);
+	font-style: italic;
 }
 
 .context-dark .text-strike-1, .bg-gray-dark .text-strike-1, .bg-primary .text-strike-1 {
