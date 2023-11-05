@@ -284,6 +284,11 @@ p [style*='max-width'] {
 	display: inline-block;
 }
 
+.brand img{
+	width:  100px;
+	max-height: 100px;
+}
+
 .brand .brand-logo-light {
 	display: none;
 }
@@ -408,10 +413,11 @@ a[href*='tel'], a[href*='mailto'] {
 .link-instafeed-3 {
 	display: inline-block;
 	min-width: 210px;
-	padding: 8px 40px 10px;
-	font-weight: 400;
+	padding: 8px 40px 0;
+	/* font-weight: 800; */
 	letter-spacing: .05em;
-	background: #ffffff;
+	background: #fff;
+	margin-top: 20px;
 }
 
 .gallery-title a, .gallery-title a:focus, .gallery-title a:active,
@@ -428,7 +434,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .gallery-title {
 	font-weight: 500;
-	font-size: 14px;
+	/* font-size: 14px; */
 }
 
 .gallery-title a {
@@ -3657,7 +3663,7 @@ hr {
 
 .button-default-outline, .button-default-outline:focus {
 	color: #ffffff;
-	background-color: #d3660080;
+	background-color: rgba(255, 255, 255, 0.5);
 	border-color: #d36600;
 }
 
@@ -7098,6 +7104,8 @@ textarea.textarea-lg {
 	text-align: center;
 	overflow: hidden;
 	transition: all .3s ease;
+	border: #959595 solid 4px;
+	box-shadow: 3px 3px;
 }
 
 .thumbnail-mary::before, .thumbnail-mary::after {
@@ -7144,11 +7152,13 @@ textarea.textarea-lg {
 
 .thumbnail-mary-figure {
 	display: block;
+
 }
 
 .thumbnail-mary-figure img {
 	width: 100%;
 	transition: all .3s ease;
+	
 }
 
 .thumbnail-mary-caption {
@@ -8586,8 +8596,8 @@ textarea.textarea-lg {
 }
 
 .footer-contacts a {
-	display: inline-block;
-	vertical-align: middle;
+	display:inline-block;
+	vertical-align:top;
 	font-size: 14px;
 	line-height: 1.72;
 	letter-spacing: .025em;
@@ -8602,7 +8612,7 @@ textarea.textarea-lg {
 }
 
 .footer-contacts li + li {
-	margin-top: 18px;
+	margin-top: 0px;
 }
 
 * + .footer-contacts {
@@ -8691,7 +8701,7 @@ textarea.textarea-lg {
 
 .footer-corporate .footer-contacts .link-phone {
 	font-size: 14px;
-	line-height: 1.72;
+	line-height: 1.75;
 }
 
 .footer-corporate .footer-contacts a {
@@ -8708,7 +8718,7 @@ textarea.textarea-lg {
 }
 
 .footer-corporate .footer-contacts .unit > * {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	margin-left: 22px;
 }
 
@@ -8728,6 +8738,8 @@ textarea.textarea-lg {
 	min-width: auto;
 	padding-left: 30px;
 	padding-right: 30px;
+	border-radius: 15px;
+	box-shadow: 5px 5px #000 ;
 }
 
 .footer-corporate * + .list-marked {
@@ -8808,12 +8820,13 @@ textarea.textarea-lg {
 }
 
 .footer-corporate-inset {
-	padding: 50px 0;
+	padding: 0px 0;
+	height: 160px;
 }
 
 @media (min-width: 992px) {
 	.footer-corporate-inset {
-		padding: 65px 0;
+		padding: 25px 0;
 	}
 }
 
@@ -8824,7 +8837,7 @@ textarea.textarea-lg {
 }
 
 .footer-corporate-bottom-panel {
-	padding: 30px 0;
+	padding: 15px 0;
 	background: #11263a;
 	color: rgba(255, 255, 255, 0.3);
 }
@@ -12112,6 +12125,10 @@ h4 + .instafeed {
 	padding: 60px 0;
 }
 
+.photos-border{
+	border: #e8b323 solid 4px;
+	box-shadow: 5px 5px;
+}
 html [class*='section-'].section-bottom-0 {
 	padding-bottom: 0;
 }
@@ -12470,8 +12487,9 @@ html [class*='section-'].section-top-0 {
 .context-dark [class*='heading-'], 
 .bg-gray-dark [class*='heading-'], 
 .bg-primary [class*='heading-'] {
-	color: #ffff00;
+	color: #e8b323;
 }
+
 
 .context-dark .form-wrap.has-error .form-input, .bg-gray-dark .form-wrap.has-error .form-input, .bg-primary .form-wrap.has-error .form-input {
 	border-color: transparent;
@@ -14702,8 +14720,8 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-brand img {
 	max-width: 350px;
 	max-height: 100px;
-	width: auto;
-	height: auto;
+	width: 120px;
+	height: 0px;
 }
 
 @media (min-width: 576px) {
@@ -17089,7 +17107,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-aside {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	font-size: 12px;
 	line-height: 2;
 	font-weight: 500;
@@ -17138,8 +17156,8 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-brand img {
 	width: auto;
 	height: auto;
-	max-width: 200px;
-	max-height: 170px;
+	max-width: 80px;
+	max-height: 80px;
 }
 
 @media (min-width: 1200px) {
