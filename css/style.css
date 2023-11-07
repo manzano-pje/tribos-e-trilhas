@@ -416,7 +416,7 @@ a[href*='tel'], a[href*='mailto'] {
 	padding: 8px 40px 0;
 	/* font-weight: 800; */
 	letter-spacing: .05em;
-	background: #fff;
+	/* background: #fff; */
 	margin-top: 20px;
 }
 
@@ -2978,6 +2978,7 @@ hr {
 	vertical-align: middle;
 	user-select: none;
 	transition: 250ms all ease-in-out;
+	border-radius: 20px;
 }
 
 .button-block {
@@ -3834,21 +3835,26 @@ hr {
 }
 
 .button-black-outline.button-pipaluk, .button-black-outline.button-pipaluk:focus {
-	background: transparent;
+	color:#fff;
+	background: #ae6c09;
+	border-color: #ae6c09;
+
 }
 
 .button-black-outline.button-pipaluk::before, .button-black-outline.button-pipaluk:focus::before {
-	background: transparent;
-	border-color: #d36600;
+	color: #fff;
+	background: #ae6c09;
+	border-color: #ae6c09;
+	border-radius: 20px;
 }
 
 .button-black-outline.button-pipaluk::after, .button-black-outline.button-pipaluk:focus::after {
-	border-color: #d36600;
+	border-color: transparent;
 }
 
 .button-black-outline.button-pipaluk:hover, .button-black-outline.button-pipaluk:active {
-	color: #d36600;
-	background: transparent;
+	color: #000;
+	background: #e8b323;
 }
 
 .button-black-outline.button-wapasha, .button-black-outline.button-wapasha:focus {
@@ -13609,10 +13615,14 @@ html.tablet .ui-to-top {
 	}
 }
 
-.rd-navbar-wrap, .rd-navbar,
+.rd-navbar-wrap, 
+.rd-navbar,
 .rd-menu,
 .rd-navbar-nav,
-.rd-navbar-panel, .rd-navbar-static .rd-menu, .rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-fixed .rd-navbar-submenu, .rd-navbar-project {
+.rd-navbar-panel, .rd-navbar-static .rd-menu, 
+.rd-navbar-fixed .rd-navbar-nav-wrap, 
+.rd-navbar-fixed .rd-navbar-submenu, 
+.rd-navbar-project {
 	transition: 0.35s all cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
