@@ -420,7 +420,9 @@ a[href*='tel'], a[href*='mailto'] {
 	margin-top: 20px;
 }
 
-.gallery-title a, .gallery-title a:focus, .gallery-title a:active,
+.gallery-title a, 
+.gallery-title a:focus, 
+.gallery-title a:active,
 .link-instafeed-3 a,
 .link-instafeed-3 a:focus,
 .link-instafeed-3 a:active {
@@ -8827,7 +8829,7 @@ textarea.textarea-lg {
 
 .footer-corporate-inset {
 	padding: 0px 0;
-	height: 160px;
+	height: 145px;
 }
 
 @media (min-width: 992px) {
@@ -8838,7 +8840,8 @@ textarea.textarea-lg {
 
 @media (min-width: 1200px) {
 	.footer-corporate-inset {
-		padding-top: 75px;
+		padding-top: 20px;
+		height: 140px;
 	}
 }
 
