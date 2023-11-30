@@ -413,11 +413,11 @@ a[href*='tel'], a[href*='mailto'] {
 .link-instafeed-3 {
 	display: inline-block;
 	min-width: 210px;
-	padding: 8px 40px 0;
+	padding: 0 40px 0;
 	/* font-weight: 800; */
 	letter-spacing: .05em;
 	/* background: #fff; */
-	margin-top: 20px;
+	margin-top: 0px;
 }
 
 .gallery-title a, 
@@ -11942,7 +11942,8 @@ h4 + .instafeed {
 }
 
 .row-50 {
-	margin-bottom: -50px;
+	margin-top: 0;
+	/* margin-bottom: -50px; */
 }
 
 .row-50:empty {
@@ -11950,7 +11951,7 @@ h4 + .instafeed {
 }
 
 .row-50 > * {
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 }
 
 .row-55 {
@@ -12116,15 +12117,16 @@ h4 + .instafeed {
 }
 
 .section-sm {
-	padding: 30px 0;
+	padding-top: 30px;
+	margin-top: 30px;
 }
 
 .section-sm.section-first {
-	padding-top: 60px;
+	padding-top: 0px;
 }
 
 .section-sm.section-last {
-	padding-bottom: 60px;
+	padding-bottom: 0px;
 }
 
 .section-60,
@@ -12154,10 +12156,10 @@ html [class*='section-'].section-top-0 {
 
 @media (min-width: 768px) {
 	.section-sm {
-		padding: 40px 0;
+		padding-top: 30px;
 	}
 	.section-sm.section-first {
-		padding-top: 80px;
+		/* padding-top: 80px; */
 	}
 	.section-sm.section-last {
 		padding-bottom: 80px;
@@ -12175,10 +12177,10 @@ html [class*='section-'].section-top-0 {
 
 @media (min-width: 992px) {
 	.section-sm {
-		padding: 50px 0;
+		/* padding: 50px 0; */
 	}
 	.section-sm.section-first {
-		padding-top: 100px;
+		/* padding-top: 100px; */
 	}
 	.section-sm.section-last {
 		padding-bottom: 100px;
@@ -12229,6 +12231,7 @@ html [class*='section-'].section-top-0 {
 	.section-fluid .container-fluid {
 		padding-left: 0;
 		padding-right: 0;
+		padding-bottom: 20px;
 		max-width: 1770px;
 		margin-left: auto;
 		margin-right: auto;
@@ -12725,6 +12728,9 @@ html [class*='section-'].section-top-0 {
 	background-color: #ffffff;
 }
 
+.bg-home{
+	background-color: #fff3df;
+}
 .bg-gray-100 {
 	background-color: #f2f2f2;
 }
@@ -19603,10 +19609,11 @@ h3 + .isotope-filters {
 	visibility: hidden;
 	height: 0;
 	overflow: hidden;
+	
 }
 
 .tab-content > .tab-pane.active {
-	height: auto;
+	height: 90%;
 }
 
 .ios .tab-height, .mac-os .tab-height {

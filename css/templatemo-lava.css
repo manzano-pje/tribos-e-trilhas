@@ -276,11 +276,12 @@ welcome
   width: 100%;
 }
 
-.welcome-area .img, .welcome-area-agencia .img{
-  /* display: flex;
-  align-items: center; 
-  justify-content: center;  */
+.welcome-area .img {
 margin-top: 50px;
+}
+.welcome-area-agencia .img{
+  margin-top: 50px;
+  width: 90%;
 }
 
 @media (max-width: 1420px) {
